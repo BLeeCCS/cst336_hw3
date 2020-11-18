@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rick N Morty</title>
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+</head>
+<body>
+    <h1>Rick and Morty</h1>
+    <form>
+        <label for="ID">Enter ID (1-627)</label><br>
+        <input type="number" id="ID" min="1" max="627"/>
+        <span id="error"></span>
+    </form><br>
+    <div id="image"></div>
+    
+    <aside id="info">
+        <div id="name">Name: </div><br>
+        <div id="gender">Gender: </div><br>
+        <div id="status">Status: </div><br>
+        <div id="species">Species: </div><br>
+        <div id="origin">Origin: </div>
+    </aside>
+</body>
+</html>
